@@ -83,8 +83,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'toto_db',
-        'USER' : 'root',
-        'PASSWORD' : '0305',
+        'USER' : '', #Username
+        'PASSWORD' : '', #DBpassword
         'HOST' : '127.0.0.1',
         'PORT' : '3306',
     }
