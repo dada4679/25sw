@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import './loginpage.css';
 
-// 전역 베이스 URL아그냥고정해버려
+// 전역 베이스 URL
 axios.defaults.baseURL = 'http://127.0.0.1:8000';
 
 function Login() {
@@ -141,9 +141,9 @@ function Login() {
         <div style={{ position: "relative", width:"100%", minHeight:"100dvh", pointerEvents:"none"  }}>
           <div style={{ position: "absolute", top: 12, right: 12, display: "flex", gap: 10, zIndex:10,pointerEvents:"auto" }}>
             <button style={{ width: 50, height: 50, backgroundColor: "#eee", color: "#555", border: "3px solid #000", borderRadius: "50%", cursor: "pointer", fontWeight: "bold", fontSize: 30, display: "flex", alignItems: "center", justifyContent: "center" }}
-              onClick={() => alert('notion ')}>?</button>
+              onClick={() => window.open("https://fallacious-floss-7b2.notion.site/TOTO-24bb6eef3d1d808dbbf4df22a56c62fe?source=copy_link")}>?</button>
             <button style={{ width: 70, height: 50, backgroundColor: "#eee", borderColor: "3px solid #000" ,color: "#555", cursor: "pointer", fontWeight: "bold", fontSize: 15, display: "flex", alignItems: "center", justifyContent: "center" }}
-            onClick={() => alert('notion ')}>About Us</button>
+            onClick={() => window.open("https://fallacious-floss-7b2.notion.site/About-Us-24bb6eef3d1d805a80d9ff2229d60b43?source=copy_link")}>About Us</button>
           </div>
         </div>
         <div className="bus-buttons">

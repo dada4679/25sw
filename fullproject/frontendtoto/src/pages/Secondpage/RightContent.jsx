@@ -105,7 +105,7 @@ function RightContent({ onAddTodo, completionRate, students, studentTodos, displ
     <div style={{ position: "relative", display: "flex", flexDirection: "column", alignItems: "center" }}>
       <div style={{ position: "absolute", top: 16, right: 16, display: "flex", gap: 10 }}>
         <button style={{ width: 50, height: 50, backgroundColor: "#eee", color: "#555", border: "none", borderRadius: "50%", cursor: "pointer", fontWeight: "bold", fontSize: 30, display: "flex", alignItems: "center", justifyContent: "center" }}
-          onClick={() => alert('')}>?</button>
+          onClick={() => window.open('https://fallacious-floss-7b2.notion.site/TOTO-24bb6eef3d1d808dbbf4df22a56c62fe?source=copy_link')}>?</button>
       </div>
       
 
